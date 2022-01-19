@@ -1,3 +1,12 @@
+/**
+* Author:       Conner Luzier
+* Date:         1/19/2022
+* Description:  Returns the nth term in the Fibonacci sequence given a number (index)
+*
+* @param  index     the number placed in the fibonacci sequence
+* @return           the number of seconds it takes for the fibonacci sequence to reach the index
+*/
+
 class Fibonacci {
     public static long fibRecursive(long index) {
         //check arg to see if number is = 0, if so, return 0
